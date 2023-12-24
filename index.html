@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <script src="index.js" ></script>
+</head>
+
+<body>
+      <h1 class="h1">Hello <span id="names"></span>Welcome<br>
+        to 
+        <br> Quiz Game ====(Be Happy :S)</h1>
+    <div class="main">
+        <div class="que1" id="que">
+            <h1>Que 1. What does the acronym "HTML" stand for in web development?</h1>
+            <ul>
+                <li class="wrong" onclick="result('Hyper Traner Markup Language')">Hyper Transfer Markup Language</li>
+                <li class="right" onclick="result('Hyper Text Markup Language')">Hyper Text Markup Language</li>
+                <li class="wrong" onclick="result('Hyper Trans Language')">High-Level Text Management Language</li>
+                <li class="wrong" onclick="result('Hyper Markup Language')">Home Tool Markup Language</li>
+            </ul>
+        </div>
+
+        <div class="que2" id="que">
+            <h1>Que 2. In Python, what is the function used to get the length of a list?</h1>
+            <ul>
+                <li class="right1" onclick="result1('len')">len</li>
+                <li class="wrong1" onclick="result1('tyw')">size</li>
+                <li class="wrong1" onclick="result1('tytutw')">length</li>
+                <li class="wrong1" onclick="result1('tywuyfy')">cout</li>
+            </ul>
+        </div>
+
+        <div class="que3">
+            <h1>Que 3. What is the purpose of CSS in web development?</h1>
+            <ul>
+                <li class="wrong2" onclick="result2('hfdsjgbvj')"> Content Sharing System</li>
+                <li class="wrong2" onclick="result2('ewfyegfch')">Computer Style Sheets</li>
+                <li class="wrong2" onclick="result2('fdysfhg')">Central Style System</li>
+                <li class="right2" onclick="result2('Cascading Style Sheets')">Cascading Style Sheets</li>
+            </ul>
+        </div>
+
+        <div class="que4">
+            <h1>Que 4. Which programming language is commonly used for building Android applications?</h1>
+            <ul>
+                <li class="wrong3" onclick="result3('ghjhsd')">Swift</li>
+                <li class="right3" onclick="result3('Java')">Java</li>
+                <li class="wrong3" onclick="result3('gcdj')">C#</li>
+                <li class="wrong3" onclick="result3('gcdj')">Python</li>
+            </ul>
+        </div>
+
+        <div class="que5">
+            <h1>Que 5. What does the term "API" stand for in software development?</h1>
+            <ul>
+                <li class="right4" onclick="result4('Application Programming Interface')">Application Programming Interface</li>
+                <li class="wrong4" onclick="result4('Applibfgbogramming Interface')" >Advanced Programming Interface</li>
+                <li class="wrong4" onclick="result4('Application Programming Interface')">Automated Processing Interface</li>
+                <li class="wrong4"onclick="result4('Applicatioogramming Interface')">Application Process Integration</li>
+            </ul>
+        </div>
+      
+       
+        <button type="button" class="next" id="preButton">Previous</button>
+        <button type="submit" class="pre" id="nextButton" >Next</button>
+
+    </div>
+    
+</body>
+
+</html>
